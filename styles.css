@@ -1,0 +1,154 @@
+/* Write styles here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  /* html, body{
+  } */
+
+  title {
+    display: block;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+
+
+                        /* Main section css */
+  main{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0px 20px 0px 50px;
+  }
+ 
+   .Shop-name{
+    font-size: 4.5rem;
+    }
+
+    .Shop-slogan{
+        font-weight: 200;
+        font-size: 1.5rem;
+        word-spacing: 5px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .section-1{
+        margin: 20px 0px 0px 0px;
+     }
+    .section-2{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    button{
+        width: 145px;
+        padding: 8px; 
+      }
+    
+    button#login{
+            background: black;
+            color: white;
+            width: 170px;
+            font-size: 1rem;
+            font-weight: 100;
+            margin: 0px 30px 10px 0px;
+        }
+
+    button#signup{
+        background: white;
+        color: black;
+        width: 170px;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+           
+
+     .right-img > img{
+        width: 900px;
+        height: 500px;
+        object-fit: contain;
+     }
+     
+     .left-img{
+        border: 1px solid black;
+     }
+
+     .left-img > img{
+         max-width : 100%;
+         height: 330px;
+         object-fit: contain;
+     }
+
+     .section-2 .info{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 8px;
+        font-size: 1rem;
+        font-weight: 500;
+     }
+
+     .section-2 .info .row{
+        display: flex;
+        justify-content: space-between;
+     }
+
+     .section-2 .colors {
+        display: flex;
+     }
+     .section-2 .colors .row .circle{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        margin: 0 5px;
+     }
+
+     #addBtn{
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 500;
+        background: black;
+        color: white;
+     }
